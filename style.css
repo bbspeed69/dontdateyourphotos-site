@@ -1,4 +1,4 @@
-@font-face{font-family:'Space Grotesk';src:url('/assets/SpaceGrotesk-Bold.ttf') format('truetype');font-weight:700;font-display:swap}
+@font-face{font-family:'Space Grotesk';src:url('/assets/SpaceGrotesk-Bold.woff2') format('woff2');font-weight:700;font-display:swap}
 /* Palette lifted from the app's own tokens (src/theme/tokens.ts) so the site
    and the product read as one thing: purple-black ground, cream text, the
    brand red for accents. */

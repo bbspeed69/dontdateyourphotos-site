@@ -1,0 +1,16 @@
+{
+  "id": "/",
+  "name": "Don't Date Your Photos",
+  "short_name": "DDYP",
+  "description": "The official website for Don't Date Your Photos, an iPhone photo cleaner.",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#171022",
+  "theme_color": "#171022",
+  "icons": [
+    {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}
