@@ -1,3 +1,4 @@
+@font-face{font-family:'Space Grotesk';src:url('/assets/SpaceGrotesk-Bold.ttf') format('truetype');font-weight:700;font-display:swap}
 /* Palette lifted from the app's own tokens (src/theme/tokens.ts) so the site
    and the product read as one thing: purple-black ground, cream text, the
    brand red for accents. */
@@ -6,8 +7,8 @@
   --bg-deep: #110b18;
   --surface: rgba(251, 237, 206, 0.06);
   --text: #fbedce;
-  --text-dim: rgba(251, 237, 206, 0.62);
-  --text-quiet: rgba(251, 237, 206, 0.4);
+  --text-dim: #bcb2c5;
+  --text-quiet: #ac9fb7;
   --red: #fa4c56;
   --green: #4fd98a;
   --hairline: rgba(251, 237, 206, 0.12);
@@ -153,3 +154,11 @@ footer a {
 .nav-back:hover {
   color: var(--red);
 }
+
+/* Companion pages retain their policy text and readable document layout. */
+.wrap {padding-top:3rem}
+.nav-back {padding:1rem 0;border-bottom:1px solid var(--hairline);width:100%;font-weight:600;color:var(--text)}
+.wrap>.eyebrow {margin-top:1rem}
+.wrap>h2 {padding-top:1.25rem;border-top:1px solid var(--hairline)}
+a:focus-visible{outline:3px solid var(--green);outline-offset:5px}
+@media(max-width:480px){.lede{font-size:1.125rem}.wrap{padding:2rem 1.375rem 4rem}a{overflow-wrap:anywhere}}
