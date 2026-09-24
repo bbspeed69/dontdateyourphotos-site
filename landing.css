@@ -13,3 +13,12 @@
 @media(min-width:801px) and (max-width:1100px){.phone-back{right:24px}}
 @media(max-width:520px){.hero h1{font-size:clamp(47px,15.1vw,59px)}.phone-back{right:20px}.hero-art .orbit{width:100%;height:auto;aspect-ratio:1;left:0}.hero-art .orbit-two{width:80%;left:10%}.hero-art .tag-heart{right:4px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+.header-actions{display:flex;align-items:center;gap:28px}
+.site-header .social-links{gap:8px}
+.site-header .social-links .social-link{display:grid;place-items:center;width:44px;height:44px;padding:0;border:1px solid var(--line);border-radius:50%;background:#ffffff06;color:var(--cream);transition:background .2s,border-color .2s,color .2s}
+.social-link svg{width:20px;height:20px}
+.site-header .social-links .instagram-link:hover{background:#fa4c5618;border-color:var(--coral);color:var(--coral)}
+.site-header .social-links .facebook-link:hover{background:#4fd98a18;border-color:var(--green);color:var(--green)}
+@media(max-width:1000px){.header-actions{gap:16px}.site-header .main-nav{gap:18px}}
+@media(max-width:520px){.site-header{height:auto;min-height:90px;flex-wrap:wrap;gap:12px;padding-block:18px}.header-actions{gap:12px}.site-header .social-links{gap:6px}.site-header .main-nav{gap:0}.nav-download{padding:8px 12px!important}}
+@media(max-width:420px){.header-actions{width:100%;justify-content:space-between}.site-header .brand span{font-size:11px}}
