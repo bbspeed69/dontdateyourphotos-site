@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dontdateyourphotos.date/sitemap.xml
+Sitemap: https://ddyp.co/sitemap.xml
