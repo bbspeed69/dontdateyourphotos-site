@@ -22,3 +22,14 @@
 @media(max-width:1000px){.header-actions{gap:16px}.site-header .main-nav{gap:18px}}
 @media(max-width:520px){.site-header{height:auto;min-height:90px;flex-wrap:wrap;gap:12px;padding-block:18px}.header-actions{gap:12px}.site-header .social-links{gap:6px}.site-header .main-nav{gap:0}.nav-download{padding:8px 12px!important}}
 @media(max-width:420px){.header-actions{width:100%;justify-content:space-between}.site-header .brand span{font-size:11px}}
+
+/* Keep both platform choices readable at narrow widths and increased text size. */
+.platform-downloads{display:flex;flex-wrap:wrap;gap:12px;align-items:stretch;max-width:100%}
+.platform-downloads .download{max-width:100%;min-height:60px;white-space:normal;text-align:left;font-family:inherit;line-height:1.4}
+.platform-downloads .download>span:first-child{min-width:0;overflow-wrap:anywhere}
+.platform-downloads .android-coming-soon{background:#292032;color:#fbedce;border:1px solid #85758f;opacity:1;cursor:default;box-shadow:none;transform:none}
+.platform-downloads .android-coming-soon small{color:#fbedce}
+.platform-downloads a:focus-visible{outline:3px solid #fbedce;outline-offset:4px}
+@media(max-width:900px){.platform-downloads{justify-content:center}}
+@media(max-width:520px){.platform-downloads{flex-direction:column;align-items:stretch}.platform-downloads .download{width:100%;justify-content:space-between}}
+@media(max-width:520px){.site-footer nav{flex-wrap:wrap;justify-content:flex-start;gap:16px 22px}}
