@@ -5,7 +5,7 @@ a.ddyp-download .ddyp-download__icon{display:grid;place-items:center;flex:0 0 38
 a.ddyp-download svg{display:block;width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 a.ddyp-download .ddyp-download__label{min-width:0;flex:1}
 a.ddyp-download small{display:block;margin-bottom:4px;font-weight:700;line-height:1.3;font-size:10px;letter-spacing:.13em}
-a.ddyp-download strong{display:block;font-size:16px;font-weight:700;line-height:1.35}
+a.ddyp-download strong{color:inherit;display:block;font-size:16px;font-weight:700;line-height:1.35}
 a.ddyp-download .ddyp-download__arrow{flex:0 0 auto;font-size:26px;line-height:1;margin-left:4px}
 a.ddyp-download:hover{color:#21112f;background:linear-gradient(125deg,var(--button-from),var(--button-to));text-decoration:none;transform:translateY(-3px);box-shadow:0 14px 34px var(--button-shadow),inset 0 1px 0 #ffffff80}
 a.ddyp-download:active{transform:translateY(0)}
