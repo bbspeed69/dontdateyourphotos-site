@@ -33,3 +33,7 @@
 @media(max-width:900px){.platform-downloads{justify-content:center}}
 @media(max-width:520px){.platform-downloads{flex-direction:column;align-items:stretch}.platform-downloads .download{width:100%;justify-content:space-between}}
 @media(max-width:520px){.site-footer nav{flex-wrap:wrap;justify-content:flex-start;gap:16px 22px}}
+
+
+/* Platform launch navigation: keep current branding and responsive layout. */
+.platform-note{font-size:.875rem;line-height:1.5;color:#c5bdcf;max-width:36rem}.platform-note a{color:inherit;text-underline-offset:3px}.site-footer nav{flex-wrap:wrap}.platform-downloads .android-coming-soon{cursor:pointer}
